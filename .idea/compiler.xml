@@ -6,18 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="web" />
         <module name="model" />
         <module name="service" />
-        <module name="web" />
         <module name="dao" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dao" target="1.5" />
-      <module name="model" target="1.5" />
-      <module name="multi-module" target="1.5" />
-      <module name="service" target="1.5" />
-      <module name="web" target="1.5" />
+      <module name="dao" target="1.8" />
+      <module name="model" target="1.8" />
+      <module name="multi-module" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
